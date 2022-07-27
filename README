@@ -35,7 +35,7 @@ the problems which may result by upgrading your kernel.
 
 请看下图，高地址是内核空间，是操作系统内核独占的，低地址是用户空间（当然这么说只是笼统泛泛而谈的，实际情况会复杂很多，请自行搜索了解）
 
-[image](https://github.com/KSroido/linux5-lab/blob/master/readmeSrc/%E6%9C%AA%E5%91%BD%E5%90%8D%E7%BB%98%E5%9B%BE.jpg?raw=true)
+[![vppYDg.jpg](https://s1.ax1x.com/2022/07/27/vppYDg.jpg)](https://imgtu.com/i/vppYDg)
 
 正是因为所有用户进程都共享了内核空间,才可以使得内核空间中的所有函数入口理论上都可以是被全局使用的,然而我们也知道.有些函数是具有危险性的, 因此需要进行""鉴权", 即: 鉴定调用者的权限是否正确
 
