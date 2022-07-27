@@ -45,4 +45,5 @@ the problems which may result by upgrading your kernel.
 
 第三个关键点是: linux的兼容性和代码复用做的很好, 64位系统和32位系统之间有大量代码复用了, x86和arm Linux之间也有大量的代码复用; 所以我们本次实验需要正确设置编译配置, 对于第一次做这个课设的同学而言, 成功配置编译环境与成功编译,大致会占据整个实验时间的一般左右,期间可能还需要学习一些cmake和makefile相关的知识
 
+
 (待补充)
